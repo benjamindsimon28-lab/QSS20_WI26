@@ -30,6 +30,7 @@ pio.templates["pds"] = go.layout.Template(
     )
 )
 pio.templates.default = "simple_white+pds"
+pio.renderers.default = "notebook_connected"
 
 # display options for numpy and pandas
 np.set_printoptions(threshold=20, precision=2, suppress=True)
